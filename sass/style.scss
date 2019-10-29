@@ -98,3 +98,40 @@ header{
         }
     }
 }
+
+.last-articles{
+    background:$primary;
+    position: relative;
+    height: 100vh;
+    .sec-title{
+        margin-top:0px;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        right:0px;
+        display: flex;
+        justify-content: center;
+        h2{
+            
+            text-align: center;
+            font-size:2rem;
+            span{
+                background:#fff;
+                padding:.3em .4em;
+                line-height: 1.5em;;
+            }
+        }
+    }
+    .sec-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .elmt{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 10em 5vw 7em;
+        }
+    }
+}

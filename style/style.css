@@ -87,4 +87,40 @@ header .navbar .navbar-right .topics .icon {
   height: 19px;
 }
 
+.last-articles {
+  background: #d33a2c;
+  position: relative;
+  height: 100vh;
+}
+.last-articles .sec-title {
+  margin-top: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+}
+.last-articles .sec-title h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.last-articles .sec-title h2 span {
+  background: #fff;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+}
+.last-articles .sec-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last-articles .sec-content .elmt {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10em 5vw 7em;
+}
+
 /*# sourceMappingURL=style.css.map */
