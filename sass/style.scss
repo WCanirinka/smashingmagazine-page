@@ -1,0 +1,100 @@
+$primary: #d33a2c;
+*{
+
+}
+ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+body{
+    padding:0px;
+    margin:0px;
+    
+}
+header{
+    background: $primary;
+    min-height: 6.2375rem;
+    padding: 1em 0px;
+    *{
+        
+        text-decoration: none;
+    }
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navbar-left{
+            padding:30px 60px;
+            .navabar-logo{
+                img{
+                    height:83px;
+                }
+            }
+        }
+        .navbar-center{
+            flex:1;
+            .navbar-center-elements{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                .navbar-elements{
+                    text-align:center;
+                    a{
+                        color:#fff;
+                        img{
+                            height: 55px;
+                            transform: rotate(-15deg);
+                            transition: all 0.25s ease;
+                            margin-bottom:6px;
+                        }
+                    }
+                    
+                        .title{
+                            font-size:35px;
+                            font-weight: 700;
+                            margin:0px;
+                        }
+                        p{
+                            font-size:22.82px;
+                            font-style:italic;
+                            margin-top:15px;
+                        }
+                    
+                }
+                .navbar-elements:hover{
+                    a{
+                        color:#000;
+                    }
+                    img{
+                        transform: rotate(0deg);
+                    }
+                }
+            }
+        }
+        .navbar-right{
+            padding:30px 60px;
+            .topics{
+                background: $primary;
+                border:3px solid #fff;
+                border-radius:8px;
+                font-size:23px;
+                height:56px;
+                font-weight: 700;
+                display:block;
+                padding:0px 15px;
+                color:#fff;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                width:90px;
+                .icon{
+                    fill:#fff;
+                    height:19px;
+                }
+            }
+        }
+    }
+}
