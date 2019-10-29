@@ -2,10 +2,10 @@
 ![Screenshot Image](images/screen-shot.png)
 <br />
 <p align="center">
-   <h3 align="center">New York Time Page</h3>
+   <h3 align="center">Smashing Magazine Page</h3>
 
   <p align="center">
-    A simple clone of the New York Time Page Article.
+    A simple clone of the Smashing Magazine Page Article.
     <br />    
     <br />
     ·
