@@ -27,7 +27,7 @@ header{
 
         .navbar-left{
             padding:30px 60px;
-            .navabar-logo{
+            .navbar-logo{
                 img{
                     height:83px;
                 }
@@ -36,7 +36,7 @@ header{
         .navbar-center{
             flex:1;
             .navbar-center-elements{
-                display:flex;
+                display: flex;
                 justify-content: space-between;
                 align-items: center;
                 
@@ -45,20 +45,19 @@ header{
                     a{
                         color:#fff;
                         img{
-                            height: 55px;
+                            height: 35px;
                             transform: rotate(-15deg);
                             transition: all 0.25s ease;
                             margin-bottom:6px;
                         }
-                    }
-                    
+                    }                    
                         .title{
                             font-size:35px;
                             font-weight: 700;
                             margin:0px;
                         }
                         p{
-                            font-size:22.82px;
+                            font-size:15px;
                             font-style:italic;
                             margin-top:15px;
                         }
@@ -100,9 +99,9 @@ header{
 }
 
 .last-articles{
-    background:$primary;
     position: relative;
     height: 100vh;
+    cursor: pointer;
     .sec-title{
         margin-top:0px;
         position: absolute;
@@ -124,14 +123,66 @@ header{
     }
     .sec-content{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         .elmt{
+            background:$primary;
+            width: 50%;
+            box-sizing: border-box;
             height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
             padding: 10em 5vw 7em;
+            color: #fff;
+            
+            .art-author{
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;                
+                img{
+                    height: 76px;
+                    width: 76px;
+                    transform: rotate(-15deg);
+                    transition: all 0.25s ease;
+                    margin-bottom:6px;
+                    border: 5px solid #fff;
+                    border-radius: 13px;
+                }
+                img:hover{
+                    transform: rotate(0deg);
+                }
+                .art-auth-info{
+                    margin-top:10px;
+                    margin-left: 25px;
+                    color: #fff;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                    .author-name{
+                        font-size: 25px;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .art-title{
+                font-size: 50px;
+                font-weight: 800;
+            }
+        }
+        .elmt:nth-child(1){
+            background-color: #bc3428;
+        }
+        .elmt:nth-child(2){
+            background-color: #c7372a;
+        }
+        .elmt:nth-child(3){
+            background-color: #b13125;
+        }
+        .elmt:nth-child(4){
+            background-color: #bc3428;
         }
     }
 }
