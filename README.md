@@ -43,7 +43,6 @@
 * Project Link [https://wcanirinka.github.io/smashingmagazine-page/](https://wcanirinka.github.io/smashingmagazine-page/)
 
 ### Acknowledgements
-
 * [GitHub](https://github.com)
 * [VSCODE]()
 * [StyleLint]()
