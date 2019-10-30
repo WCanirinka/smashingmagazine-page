@@ -214,3 +214,19 @@ main .latest-posts {
 .post.advert {
   background: rgba(0, 0, 0, 0.1);
 }
+
+.foot ul {
+  display: flex;
+  font-size: 20px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.foot ul li {
+  padding: 10px;
+}
+
+.foot ul a {
+  text-decoration: none;
+  color: #fff;
+}
