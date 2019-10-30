@@ -171,6 +171,16 @@ header{
                 font-size: 50px;
                 font-weight: 800;
             }
+            .art-content .comments{
+                display: block;
+                img{
+                    height: 25px;
+                    width: 25px;
+                    .icon{
+                        border: 5px solid #fff;
+                    }
+                }
+            }
         }
         .elmt:nth-child(1){
             background-color: #bc3428;

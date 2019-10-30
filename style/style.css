@@ -129,6 +129,13 @@ header {
       .last-articles .sec-content .elmt .art-title {
         font-size: 50px;
         font-weight: 800; }
+      .last-articles .sec-content .elmt .art-content .comments {
+        display: block; }
+        .last-articles .sec-content .elmt .art-content .comments img {
+          height: 25px;
+          width: 25px; }
+          .last-articles .sec-content .elmt .art-content .comments img .icon {
+            border: 5px solid #fff; }
     .last-articles .sec-content .elmt:nth-child(1) {
       background-color: #bc3428; }
     .last-articles .sec-content .elmt:nth-child(2) {
