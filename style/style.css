@@ -92,12 +92,11 @@ header .navbar .navbar-right .topics .icon {
   height: 19px;
 }
 
-.last-articles {
+main .featured-posts {
   position: relative;
-  height: 100vh;
   cursor: pointer;
 }
-.last-articles .sec-title {
+main .featured-posts .sec-title {
   margin-top: 0px;
   position: absolute;
   top: 0px;
@@ -106,23 +105,23 @@ header .navbar .navbar-right .topics .icon {
   display: flex;
   justify-content: center;
 }
-.last-articles .sec-title h2 {
+main .featured-posts .sec-title h2 {
   text-align: center;
   font-size: 2rem;
 }
-.last-articles .sec-title h2 span {
+main .featured-posts .sec-title h2 span {
   background: #fff;
   padding: 0.3em 0.4em;
   line-height: 1.5em;
 }
-.last-articles .sec-content {
+main .featured-posts .sec-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
-.last-articles .sec-content .article {
+main .featured-posts .sec-content .article {
   background: #d33a2c;
   width: 50%;
   box-sizing: border-box;
@@ -133,17 +132,17 @@ header .navbar .navbar-right .topics .icon {
   padding: 10em 5vw 7em;
   color: #fff;
 }
-.last-articles .sec-content .article .art-content {
+main .featured-posts .sec-content .article .art-content {
   width: 90%;
   min-height: 90%;
   position: relative;
 }
-.last-articles .sec-content .article .art-content .art-author {
+main .featured-posts .sec-content .article .art-content .art-author {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.last-articles .sec-content .article .art-content .art-author img {
+main .featured-posts .sec-content .article .art-content .art-author img {
   height: 76px;
   width: 76px;
   transform: rotate(-15deg);
@@ -152,28 +151,28 @@ header .navbar .navbar-right .topics .icon {
   border: 5px solid #fff;
   border-radius: 13px;
 }
-.last-articles .sec-content .article .art-content .art-author img:hover {
+main .featured-posts .sec-content .article .art-content .art-author img:hover {
   transform: rotate(0deg);
 }
-.last-articles .sec-content .article .art-content .art-author .art-auth-info {
+main .featured-posts .sec-content .article .art-content .art-author .art-auth-info {
   margin-top: 10px;
   margin-left: 25px;
   color: #fff;
 }
-.last-articles .sec-content .article .art-content .art-author .art-auth-info a {
+main .featured-posts .sec-content .article .art-content .art-author .art-auth-info a {
   text-decoration: none;
   color: #fff;
 }
-.last-articles .sec-content .article .art-content .art-author .art-auth-info .author-name {
+main .featured-posts .sec-content .article .art-content .art-author .art-auth-info .author-name {
   font-size: 25px;
   font-weight: 700;
 }
-.last-articles .sec-content .article .art-content .art-title {
+main .featured-posts .sec-content .article .art-content .art-title {
   font-size: 2.5rem;
   font-weight: 800;
   margin: 15px 0px;
 }
-.last-articles .sec-content .article .art-content .comments {
+main .featured-posts .sec-content .article .art-content .comments {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -182,29 +181,29 @@ header .navbar .navbar-right .topics .icon {
   font-weight: 900;
   font-size: 12px;
 }
-.last-articles .sec-content .article .art-content .comments .icon {
+main .featured-posts .sec-content .article .art-content .comments .icon {
   display: inline-block;
   width: 20px;
   margin-right: 10px;
 }
-.last-articles .sec-content .article .art-content .art-performance {
+main .featured-posts .sec-content .article .art-content .art-performance {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-top: 15px;
 }
-.last-articles .sec-content .article .art-content .art-performance .art-perf-lk {
+main .featured-posts .sec-content .article .art-content .art-performance .art-perf-lk {
   color: #fff;
   text-decoration: none;
   margin-right: 40px;
   font-weight: bold;
   position: relative;
 }
-.last-articles .sec-content .article .art-content .art-performance .art-perf-lk span:first-child {
+main .featured-posts .sec-content .article .art-content .art-performance .art-perf-lk span:first-child {
   color: #000;
   margin-right: 5px;
 }
-.last-articles .sec-content .article .art-content .art-performance .art-perf-lk span:last-child {
+main .featured-posts .sec-content .article .art-content .art-performance .art-perf-lk span:last-child {
   position: absolute;
   left: 100%;
   top: 0px;
@@ -212,19 +211,32 @@ header .navbar .navbar-right .topics .icon {
   padding-left: 5px;
   font-size: 10px;
 }
-.last-articles .sec-content .article:nth-child(1) {
+main .featured-posts .sec-content .article:nth-child(1) {
   background-color: #bc3428;
 }
-.last-articles .sec-content .article:nth-child(2) {
+main .featured-posts .sec-content .article:nth-child(2) {
   background-color: #c7372a;
 }
-.last-articles .sec-content .article:nth-child(3) {
+main .featured-posts .sec-content .article:nth-child(3) {
   background-color: #b13125;
   height: 65vh;
 }
-.last-articles .sec-content .article:nth-child(4) {
+main .featured-posts .sec-content .article:nth-child(4) {
   background-color: #bc3428;
   height: 65vh;
+}
+main .latest-posts {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+@media (min-width: 1440px) {
+  main .latest-posts .post {
+    width: 33.33333%;
+    height: 70vh;
+    padding: 0 1em;
+    padding-bottom: 150px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
