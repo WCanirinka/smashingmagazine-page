@@ -5,11 +5,11 @@
    <h3 align="center">Smashing Magazine Page</h3>
 
   <p align="center">
-    A simple heatmap of the Smashing Magazine Home Page.
+    A simple clone of the Smashing Magazine Page Article.
     <br />    
     <br />
     ·
-     <a href="https://rawcdn.githack.com/WCanirinka/smashingmagazine-page/47e787f5528b0da7af8ccb0fbb0c0393bb65ef1d/index.html">View Demo</a>
+     <a href="https://wcanirinka.github.io/smashingmagazine-page/.">View Demo</a>
     ·    
   </p>
 </p>
@@ -43,6 +43,7 @@
 * Project Link [https://wcanirinka.github.io/smashingmagazine-page/](https://wcanirinka.github.io/smashingmagazine-page/)
 
 ### Acknowledgements
+
 * [GitHub](https://github.com)
 * [VSCODE]()
 * [StyleLint]()
